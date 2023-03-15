@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>
+    <style>
+        #wrapper {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #container {
+            display: flex;
+            justify-content: space-between;
+            width: 1440px;
+        }
+        
+        #center {
+            width: 950px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+            margin-right: 100px;
+        }
+        
+        #top_center {
+            justify-content: space-between;
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        #top1_center {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 25px;
+        }
+        
+        #big_center {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 35px;
+        }
+        
+        #small_center {
+            display: flex;
+            align-items: flex-start;
+            margin-top: 35px;
+        }
+        
+        #right {
+            width: 440px;
+            background-color: aqua;
+        }
+        
+        #left {
+            width: 80px;
+            height: 870px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 0.2px outset rgb(252, 252, 252);
+        }
+        
+        #left_above {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #below {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .item {
+            width: 50px;
+            margin-top: 20px;
+        }
+        
+        .item1 {
+            width: 32px;
+            margin-top: 40px;
+        }
+        
+        #setting {
+            margin-top: 36px;
+        }
+        
+        #font_size {
+            font-size: 25px;
+            font-weight: 600;
+        }
+        
+        #item2 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 90px;
+            height: 32px;
+            color: rgb(245, 22, 33);
+            border: 1px groove rgb(241, 38, 47);
+            border-radius: 20px;
+        }
+        
+        #item3 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100px;
+            height: 27px;
+            color: white;
+            background-color: rgb(223, 69, 82);
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+            <div id="left">
+                <div id="left_above">
+                    <img class="item" src="logo.png" alt="">
+                    <img class="item1" src="home.png" alt="">
+                    <img class="item1" src="chatting.png" alt="">
+                    <img class="item1" src="calender.png" alt="">
+                    <img class="item1" src="cam.png" alt="">
+                    <img class="item1" src="user.png" alt="">
+                </div>
+
+                <div id="below">
+                    <img src="avatar.png" width="44" alt="">
+                    <img id="setting" src="setting.png" width="44" alt="">
+                </div>
+            </div>
+            <div id="center">
+                <div id="top_center">
+                    <div id="font_size">Meeting title</div>
+
+                    <div id="item2">
+                        <i class="fa-solid fa-circle"></i> 12:00
+                    </div>
+                </div>
+                <div id="top1_center">
+                    <div id="item3">
+                        <div>
+                            <i class="fa-solid fa-circle-user"></i> Internal
+                        </div>
+                    </div>
+                    <div style="margin-left: 15px;"><img src="calender_small.png" alt=""></div>
+                    <div style="margin-left: 15px;"> Sep 02, 2022 </div>
+                    <div style="margin-left: 15px;">|</div>
+                    <div style="margin-left: 15px;"> 08:00 - 09:00 AM</div>
+                </div>
+                <div id="big_center">
+                    <img src="img_big.png" alt="">
+                </div>
+                <div id="small_center">
+                    <img src="img2.png" alt="">
+                    <img src="img1.png" alt="">
+                    <img src="img.png" alt="">
+                </div>
+            </div>
+            <div id="right">right</div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
