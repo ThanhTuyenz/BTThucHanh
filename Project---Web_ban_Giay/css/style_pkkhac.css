@@ -55,64 +55,6 @@
     display: flex;
     margin-left: 29px;
 }
-#bottom{
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    margin-top: 30px;
-    height: 500px;
-    
-}
-#bottom1{
-    display: flex;
-    margin-top: 70px;
-    margin-left: 150px;
-    justify-content: space-between;
-    width: 75%;
-    height: 235px;
-    border-bottom:0.5px solid white ;
-}
-#gioithieu{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-     height: 150px;
-}
-#diachi{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 200px;
-}
-.add{
-    display: flex;
-    color: gray;
-}
-#Menu{
- display: flex;
- flex-direction: column;
- width: 210px;
- justify-content: space-between;
- height: 132px;
-}
-#mxh{
-    display: flex;
-    flex-direction: column;
-    height: 80px;
-}
-#bottom2{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    width: 70%;
-    margin-left: 150px;
-}
-#img{
-    display: flex;
-    justify-content: space-between;
-    width: 272px;
-}
-
 body {
     padding-top: 20px;
  }
